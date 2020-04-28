@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment - Canada</title>
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+        <div class="topnav" id="myTopnav" class = "content-wrap">
+          <a href="index.html">Home</a>
+          <a href="COVID_Global.html">COVID - Global</a>
+          <a href="COVID_Canada.html">COVID - Canada</a>
+          <a href="Employment.html" class="active">Capstone</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+       </div>
+      </header>
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class = "projects">
+        <div class="content-wrap">
+          <h2>Canadian Employment Overview</h2>    
+          <p> Statistics Canada (or StatsCan) is the Canadian government agency commissioned with producing statistics to help better 
+              understand Canada, its population, resources, economy, society, and culture. Statistics is a federal responsibility in 
+              Canada, and Statistics Canada produces statistics for all the provinces as well as the federal government. In addition 
+              to conducting about 350 active surveys on virtually all aspects of Canadian life, Statistics Canada undertakes a 
+              country-wide census every five years on the first and sixth year of each decade 
+              (from <a class="link" href="https://en.wikipedia.org/wiki/Statistics_Canada">Statistics Canada, Wikipedia</a>).<br><br> Statistics Canada provides a number of 
+              Canadian Income Survey Products. This includes the Canadian Income Survey (CIS)—a cross-sectional survey that 
+              assesses the income, income sources, and the economic status of individuals and families in Canada. Data from the 
+              Labour Force Survey (LFS) is combined with data from the CIS. The February 24, 2020 reported statistics on the Official 
+              Poverty Line based on the market basket measure  
+              (from <a class="link" href="https://en.wikipedia.org/wiki/Statistics_Canada">Statistics Canada, Wikipedia</a>).<br><br>
+              The Labour Force Survey and the Canadian Income Survey were the primary data sources used to create the following report. Below
+              is a short video explaining some history of the Labour Force Survey and Statistics Canada. 
+          </p> <br>
+          <div>
+            <iframe class= "content-wrap plot" width="800" height="400" src="https://www.youtube-nocookie.com/embed/oO5pUI3z9YY" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+          </div>
+            <h3> Median Income</h3>
+            <p>Starting in 1976, StatsCan began collecting income related information from many Canadian households. I will be using this data to examine
+              trends over time and see if there are items worth highlighting. As a note, regions that have been left
+              out of the StatsCan report are Yukon, Northwest Territories, and Nunavat. Below, see the median income (in 2018 dollars) by province. Median
+              income from Canada is included as well.  
+            </p> <br>
+          <div>
+            <img class = "content-wrap rplot" src="Rplot_Med_Inc.png" alt="Median Plot" width="800" height="418.40490797546">
+          </div>
+            <h3> Regional Trends</h3>
+            <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+              regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+              Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+              and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+              each region.  
+            </p> <br>
+          <div>
+           <img class = "content-wrap rplot" src="Rplot_Reg_Med_Inc.png" alt="Median Plot" width="800" height="418.40490797546">
+          </div>
+           <h3> Proportional Growth of Employment Sectors</h3>
+           <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+           regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+           Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+           and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+           each region.  
+           </p> <br>
+            <iframe class= "content-wrap plot" 
+                   src="https://public.tableau.com/views/EmploymentSectors/SectorProportions?:retry=yes&:showVizHome=no&:embed=true"
+                   width="800" height="525">
+           </iframe>
+           <h3> Employment Sector Proportions </h3>
+           <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+           regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+           Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+           and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+           each region.  
+           </p> <br>
+            <iframe class= "content-wrap plot" 
+                   src="https://public.tableau.com/views/EmploymentSectors/ProportionalChange?:retry=yes&:display_count=y&:origin=viz_share_link:showVizHome=no&:embed=true"
+                   width="800" height="525">
+           </iframe>
+           <h3> Employment Number Table - Sectors</h3>
+           <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+           regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+           Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+           and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+           each region.  
+           </p> <br>
+           <iframe class= "content-wrap plot" 
+                   src="https://public.tableau.com/views/EmploymentSectors/ProportionalTable?:showVizHome=no&:embed=true"
+                   width="800" height="525">
+           </iframe>
+           <h3> Employment Class</h3>
+           <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+           regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+           Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+           and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+           each region.  
+           </p> <br>
+           <img class = "content-wrap rplot" src="Rplot_Emp_Class.png" alt="Employment Class Plot" width="800" height="418.40490797546">
+           <h3> Employment Class - Relative</h3>
+           <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+            regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+            Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+            and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+            each region.  
+            </p> <br>
+           <img class = "content-wrap rplot" src="Rplot_Rel_Emp.png" alt="Employment Class Plot" width="800" height="418.40490797546">
+           <br>
+           <h3> Conclusion - Canadian Employment Overview</h3>
+           <p>Let's cut out some of the noise and look at a few key areas that are worth comparing. Canada can be looked at as having a few distinct
+           regions and I have chosen to break them up into Eastern, Central, and Western. Eastern is comprised of Nova Scotia, New Brunswick, 
+           Prince Edward Island and Newfoundland. Central contains Ontario and Queber while Western is made up of Alberta, Manitoba, Saskatchewan
+           and British Columbia. I've left in Canada as an overall aggregate comparison as well. See the chart below for trendlines over time for the
+           each region.  
+           </p> <br>
+          <div class = "toplink">
+           <a href="#top">Go to top</a>
+          </div>
+        </div>    
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+       <div class="content-wrap">
+        <h2>Stay Connected</h2>
+        <ul class = "contact-list">
+          <li><a href="https://www.linkedin.com/in/markdthistle/">LinkedIn</a></li>
+          <li><a href="https://github.com/thistle11">Github</a></li>
+          <li><a href="mailto:mark.d.thistle@gmail.com">Email</a></li>
+        </ul>
+       </div>
+      </footer>
+    </main>
+  </body>
+</html>

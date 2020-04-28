@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID - Canada</title>
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+        <div class="topnav" id="myTopnav" class = "content-wrap">
+          <a href="index.html">Home</a>
+          <a href="COVID_Global.html">COVID - Global</a>
+          <a href="COVID_Canada.html"class="active">COVID - Canada</a>
+          <a href="Employment.html">Capstone</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+       </div>
+      </header>
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class = "projects">
+        <div class="content-wrap">
+          <h2>COVID-19 - Canada</h2>    
+          <p>In late 2019, the first cases of the COVID-19 virus were brought to light. In mid-March, the virus had spread worldwide, which began
+            the start of a global shutdown of all public meeting spaces and non-essential businesses and services. See below for a chart showing
+            daily confirmed and recovered cases as well as deaths over time. Select the dimension you wish to view in the top right menu. Filter by
+            province or discover daily values by scrolling over individual points on the visualization.<br><br> 
+            <div class = "update">
+              Last Update: April 27, 2020 
+            </div>
+          </p> <br>
+          <iframe class= "content-wrap plot" 
+                   src="https://public.tableau.com/shared/4KSX5S5N5?:showVizHome=no&:embed=true"
+                   width="800" height="800">
+          </iframe>
+           <br>
+           </p> <br>
+           <br>
+          <div class = "toplink">
+           <a href="#top">Go to top</a>
+          </div>
+        </div>    
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+       <div class="content-wrap">
+        <h2>Stay Connected</h2>
+        <ul class = "contact-list">
+          <li><a href="https://www.linkedin.com/in/markdthistle/">LinkedIn</a></li>
+          <li><a href="https://github.com/thistle11">Github</a></li>
+          <li><a href="mailto:mark.d.thistle@gmail.com">Email</a></li>
+        </ul>
+       </div>
+      </footer>
+    </main>
+  </body>
+</html>
