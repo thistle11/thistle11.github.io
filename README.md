@@ -1,5 +1,5 @@
 # thistle11.github.io
-NSCC Project Portfolio for Business Intelligence Analytics 2019-2020
+NSCC Project Portfolio for Business Intelligence Analytics 2019-2020 found @ thistle11.github.io
 
 COVID - 19 Global Breakdown
 - New Technology Used - Web Development, R for ETL, and Tableau for Viz
