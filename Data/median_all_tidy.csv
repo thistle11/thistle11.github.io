@@ -1,0 +1,474 @@
+﻿Date,Province,Value,Region
+1976,Canada,35800,Canada
+1977,Canada,35700,Canada
+1978,Canada,35600,Canada
+1979,Canada,35200,Canada
+1980,Canada,34900,Canada
+1981,Canada,34300,Canada
+1982,Canada,32200,Canada
+1983,Canada,31000,Canada
+1984,Canada,31300,Canada
+1985,Canada,31800,Canada
+1986,Canada,32500,Canada
+1987,Canada,33100,Canada
+1988,Canada,33700,Canada
+1989,Canada,34600,Canada
+1990,Canada,32300,Canada
+1991,Canada,31400,Canada
+1992,Canada,31200,Canada
+1993,Canada,31200,Canada
+1994,Canada,31100,Canada
+1995,Canada,31100,Canada
+1996,Canada,31100,Canada
+1997,Canada,31600,Canada
+1998,Canada,31900,Canada
+1999,Canada,32300,Canada
+2000,Canada,32800,Canada
+2001,Canada,32300,Canada
+2002,Canada,32500,Canada
+2003,Canada,31800,Canada
+2004,Canada,31800,Canada
+2005,Canada,32800,Canada
+2006,Canada,32800,Canada
+2007,Canada,33300,Canada
+2008,Canada,34500,Canada
+2009,Canada,33600,Canada
+2010,Canada,33300,Canada
+2011,Canada,33400,Canada
+2012,Canada,34000,Canada
+2013,Canada,34500,Canada
+2014,Canada,35000,Canada
+2015,Canada,34900,Canada
+2016,Canada,34600,Canada
+2017,Canada,34900,Canada
+2018,Canada,35600,Canada
+1976,Newfoundland and Labrador,25700,Atlantic
+1977,Newfoundland and Labrador,25100,Atlantic
+1978,Newfoundland and Labrador,25500,Atlantic
+1979,Newfoundland and Labrador,24300,Atlantic
+1980,Newfoundland and Labrador,23200,Atlantic
+1981,Newfoundland and Labrador,25800,Atlantic
+1982,Newfoundland and Labrador,22900,Atlantic
+1983,Newfoundland and Labrador,20700,Atlantic
+1984,Newfoundland and Labrador,18300,Atlantic
+1985,Newfoundland and Labrador,19000,Atlantic
+1986,Newfoundland and Labrador,17000,Atlantic
+1987,Newfoundland and Labrador,19300,Atlantic
+1988,Newfoundland and Labrador,19100,Atlantic
+1989,Newfoundland and Labrador,20000,Atlantic
+1990,Newfoundland and Labrador,18700,Atlantic
+1991,Newfoundland and Labrador,16800,Atlantic
+1992,Newfoundland and Labrador,16000,Atlantic
+1993,Newfoundland and Labrador,17200,Atlantic
+1994,Newfoundland and Labrador,20100,Atlantic
+1995,Newfoundland and Labrador,20100,Atlantic
+1996,Newfoundland and Labrador,20300,Atlantic
+1997,Newfoundland and Labrador,19600,Atlantic
+1998,Newfoundland and Labrador,19200,Atlantic
+1999,Newfoundland and Labrador,22000,Atlantic
+2000,Newfoundland and Labrador,21500,Atlantic
+2001,Newfoundland and Labrador,20400,Atlantic
+2002,Newfoundland and Labrador,20400,Atlantic
+2003,Newfoundland and Labrador,21000,Atlantic
+2004,Newfoundland and Labrador,21500,Atlantic
+2005,Newfoundland and Labrador,21500,Atlantic
+2006,Newfoundland and Labrador,22000,Atlantic
+2007,Newfoundland and Labrador,24400,Atlantic
+2008,Newfoundland and Labrador,26300,Atlantic
+2009,Newfoundland and Labrador,26200,Atlantic
+2010,Newfoundland and Labrador,27900,Atlantic
+2011,Newfoundland and Labrador,30000,Atlantic
+2012,Newfoundland and Labrador,31100,Atlantic
+2013,Newfoundland and Labrador,31800,Atlantic
+2014,Newfoundland and Labrador,33800,Atlantic
+2015,Newfoundland and Labrador,33000,Atlantic
+2016,Newfoundland and Labrador,32300,Atlantic
+2017,Newfoundland and Labrador,31900,Atlantic
+2018,Newfoundland and Labrador,32900,Atlantic
+1976,Prince Edward Island,21400,Atlantic
+1977,Prince Edward Island,21100,Atlantic
+1978,Prince Edward Island,24900,Atlantic
+1979,Prince Edward Island,23100,Atlantic
+1980,Prince Edward Island,21800,Atlantic
+1981,Prince Edward Island,21400,Atlantic
+1982,Prince Edward Island,18900,Atlantic
+1983,Prince Edward Island,20700,Atlantic
+1984,Prince Edward Island,17700,Atlantic
+1985,Prince Edward Island,18400,Atlantic
+1986,Prince Edward Island,20100,Atlantic
+1987,Prince Edward Island,20300,Atlantic
+1988,Prince Edward Island,19500,Atlantic
+1989,Prince Edward Island,22900,Atlantic
+1990,Prince Edward Island,19600,Atlantic
+1991,Prince Edward Island,18900,Atlantic
+1992,Prince Edward Island,18200,Atlantic
+1993,Prince Edward Island,18300,Atlantic
+1994,Prince Edward Island,19500,Atlantic
+1995,Prince Edward Island,19200,Atlantic
+1996,Prince Edward Island,19800,Atlantic
+1997,Prince Edward Island,19800,Atlantic
+1998,Prince Edward Island,19400,Atlantic
+1999,Prince Edward Island,18900,Atlantic
+2000,Prince Edward Island,20300,Atlantic
+2001,Prince Edward Island,20800,Atlantic
+2002,Prince Edward Island,20000,Atlantic
+2003,Prince Edward Island,21900,Atlantic
+2004,Prince Edward Island,21700,Atlantic
+2005,Prince Edward Island,23900,Atlantic
+2006,Prince Edward Island,24100,Atlantic
+2007,Prince Edward Island,25000,Atlantic
+2008,Prince Edward Island,25200,Atlantic
+2009,Prince Edward Island,24700,Atlantic
+2010,Prince Edward Island,24000,Atlantic
+2011,Prince Edward Island,25600,Atlantic
+2012,Prince Edward Island,25400,Atlantic
+2013,Prince Edward Island,27300,Atlantic
+2014,Prince Edward Island,26900,Atlantic
+2015,Prince Edward Island,28600,Atlantic
+2016,Prince Edward Island,27300,Atlantic
+2017,Prince Edward Island,27200,Atlantic
+2018,Prince Edward Island,28500,Atlantic
+1976,Nova Scotia,30900,Atlantic
+1977,Nova Scotia,28900,Atlantic
+1978,Nova Scotia,28900,Atlantic
+1979,Nova Scotia,29700,Atlantic
+1980,Nova Scotia,29000,Atlantic
+1981,Nova Scotia,27200,Atlantic
+1982,Nova Scotia,26700,Atlantic
+1983,Nova Scotia,27100,Atlantic
+1984,Nova Scotia,25400,Atlantic
+1985,Nova Scotia,25900,Atlantic
+1986,Nova Scotia,26300,Atlantic
+1987,Nova Scotia,28800,Atlantic
+1988,Nova Scotia,29100,Atlantic
+1989,Nova Scotia,28500,Atlantic
+1990,Nova Scotia,27400,Atlantic
+1991,Nova Scotia,25800,Atlantic
+1992,Nova Scotia,25200,Atlantic
+1993,Nova Scotia,25100,Atlantic
+1994,Nova Scotia,24500,Atlantic
+1995,Nova Scotia,24000,Atlantic
+1996,Nova Scotia,24700,Atlantic
+1997,Nova Scotia,25400,Atlantic
+1998,Nova Scotia,25600,Atlantic
+1999,Nova Scotia,26500,Atlantic
+2000,Nova Scotia,27100,Atlantic
+2001,Nova Scotia,27400,Atlantic
+2002,Nova Scotia,26700,Atlantic
+2003,Nova Scotia,26400,Atlantic
+2004,Nova Scotia,26200,Atlantic
+2005,Nova Scotia,26500,Atlantic
+2006,Nova Scotia,27500,Atlantic
+2007,Nova Scotia,28400,Atlantic
+2008,Nova Scotia,28800,Atlantic
+2009,Nova Scotia,29500,Atlantic
+2010,Nova Scotia,29900,Atlantic
+2011,Nova Scotia,30800,Atlantic
+2012,Nova Scotia,31100,Atlantic
+2013,Nova Scotia,32000,Atlantic
+2014,Nova Scotia,31600,Atlantic
+2015,Nova Scotia,31400,Atlantic
+2016,Nova Scotia,31400,Atlantic
+2017,Nova Scotia,31300,Atlantic
+2018,Nova Scotia,32200,Atlantic
+1976,New Brunswick,27900,Atlantic
+1977,New Brunswick,29000,Atlantic
+1978,New Brunswick,25500,Atlantic
+1979,New Brunswick,26800,Atlantic
+1980,New Brunswick,25900,Atlantic
+1981,New Brunswick,24100,Atlantic
+1982,New Brunswick,23700,Atlantic
+1983,New Brunswick,20700,Atlantic
+1984,New Brunswick,24200,Atlantic
+1985,New Brunswick,25000,Atlantic
+1986,New Brunswick,25000,Atlantic
+1987,New Brunswick,23500,Atlantic
+1988,New Brunswick,23200,Atlantic
+1989,New Brunswick,25000,Atlantic
+1990,New Brunswick,24700,Atlantic
+1991,New Brunswick,22300,Atlantic
+1992,New Brunswick,22400,Atlantic
+1993,New Brunswick,22400,Atlantic
+1994,New Brunswick,23300,Atlantic
+1995,New Brunswick,23300,Atlantic
+1996,New Brunswick,22800,Atlantic
+1997,New Brunswick,23600,Atlantic
+1998,New Brunswick,24200,Atlantic
+1999,New Brunswick,25100,Atlantic
+2000,New Brunswick,24500,Atlantic
+2001,New Brunswick,24800,Atlantic
+2002,New Brunswick,24600,Atlantic
+2003,New Brunswick,25200,Atlantic
+2004,New Brunswick,24800,Atlantic
+2005,New Brunswick,25100,Atlantic
+2006,New Brunswick,25800,Atlantic
+2007,New Brunswick,27100,Atlantic
+2008,New Brunswick,28600,Atlantic
+2009,New Brunswick,28000,Atlantic
+2010,New Brunswick,28400,Atlantic
+2011,New Brunswick,29400,Atlantic
+2012,New Brunswick,29800,Atlantic
+2013,New Brunswick,30100,Atlantic
+2014,New Brunswick,30900,Atlantic
+2015,New Brunswick,31200,Atlantic
+2016,New Brunswick,30400,Atlantic
+2017,New Brunswick,31200,Atlantic
+2018,New Brunswick,32000,Atlantic
+1976,Quebec,35100,Central
+1977,Quebec,35500,Central
+1978,Quebec,36300,Central
+1979,Quebec,35200,Central
+1980,Quebec,34600,Central
+1981,Quebec,33700,Central
+1982,Quebec,31600,Central
+1983,Quebec,30500,Central
+1984,Quebec,30800,Central
+1985,Quebec,31700,Central
+1986,Quebec,32200,Central
+1987,Quebec,31700,Central
+1988,Quebec,31500,Central
+1989,Quebec,33000,Central
+1990,Quebec,30600,Central
+1991,Quebec,30200,Central
+1992,Quebec,29300,Central
+1993,Quebec,29600,Central
+1994,Quebec,30400,Central
+1995,Quebec,30500,Central
+1996,Quebec,30000,Central
+1997,Quebec,29500,Central
+1998,Quebec,30200,Central
+1999,Quebec,30700,Central
+2000,Quebec,30800,Central
+2001,Quebec,30000,Central
+2002,Quebec,30700,Central
+2003,Quebec,30400,Central
+2004,Quebec,30600,Central
+2005,Quebec,30600,Central
+2006,Quebec,30200,Central
+2007,Quebec,30500,Central
+2008,Quebec,31000,Central
+2009,Quebec,31500,Central
+2010,Quebec,31500,Central
+2011,Quebec,31800,Central
+2012,Quebec,32100,Central
+2013,Quebec,32200,Central
+2014,Quebec,33000,Central
+2015,Quebec,32500,Central
+2016,Quebec,33000,Central
+2017,Quebec,32900,Central
+2018,Quebec,33600,Central
+1976,Ontario,38600,Central
+1977,Ontario,37700,Central
+1978,Ontario,36300,Central
+1979,Ontario,36200,Central
+1980,Ontario,35700,Central
+1981,Ontario,35000,Central
+1982,Ontario,32700,Central
+1983,Ontario,32100,Central
+1984,Ontario,33100,Central
+1985,Ontario,33900,Central
+1986,Ontario,36600,Central
+1987,Ontario,37000,Central
+1988,Ontario,38200,Central
+1989,Ontario,38400,Central
+1990,Ontario,35700,Central
+1991,Ontario,35200,Central
+1992,Ontario,34500,Central
+1993,Ontario,34300,Central
+1994,Ontario,35400,Central
+1995,Ontario,35800,Central
+1996,Ontario,35000,Central
+1997,Ontario,35400,Central
+1998,Ontario,36000,Central
+1999,Ontario,36400,Central
+2000,Ontario,37000,Central
+2001,Ontario,36100,Central
+2002,Ontario,36400,Central
+2003,Ontario,35300,Central
+2004,Ontario,34100,Central
+2005,Ontario,36100,Central
+2006,Ontario,35500,Central
+2007,Ontario,34700,Central
+2008,Ontario,36200,Central
+2009,Ontario,34600,Central
+2010,Ontario,34200,Central
+2011,Ontario,33900,Central
+2012,Ontario,34300,Central
+2013,Ontario,34300,Central
+2014,Ontario,35200,Central
+2015,Ontario,35500,Central
+2016,Ontario,35300,Central
+2017,Ontario,35600,Central
+2018,Ontario,36400,Central
+1976,Manitoba,30100,Western
+1977,Manitoba,31300,Western
+1978,Manitoba,31400,Western
+1979,Manitoba,33300,Western
+1980,Manitoba,30900,Western
+1981,Manitoba,29600,Western
+1982,Manitoba,28400,Western
+1983,Manitoba,28000,Western
+1984,Manitoba,30100,Western
+1985,Manitoba,28500,Western
+1986,Manitoba,29700,Western
+1987,Manitoba,29900,Western
+1988,Manitoba,28800,Western
+1989,Manitoba,28900,Western
+1990,Manitoba,28900,Western
+1991,Manitoba,27200,Western
+1992,Manitoba,28600,Western
+1993,Manitoba,27800,Western
+1994,Manitoba,28000,Western
+1995,Manitoba,28600,Western
+1996,Manitoba,28500,Western
+1997,Manitoba,29000,Western
+1998,Manitoba,29000,Western
+1999,Manitoba,28600,Western
+2000,Manitoba,28900,Western
+2001,Manitoba,28900,Western
+2002,Manitoba,29800,Western
+2003,Manitoba,28800,Western
+2004,Manitoba,29000,Western
+2005,Manitoba,29900,Western
+2006,Manitoba,30200,Western
+2007,Manitoba,31600,Western
+2008,Manitoba,33400,Western
+2009,Manitoba,33800,Western
+2010,Manitoba,33200,Western
+2011,Manitoba,32700,Western
+2012,Manitoba,33800,Western
+2013,Manitoba,35500,Western
+2014,Manitoba,34600,Western
+2015,Manitoba,34700,Western
+2016,Manitoba,34800,Western
+2017,Manitoba,35700,Western
+2018,Manitoba,35100,Western
+1976,Saskatchewan,29500,Western
+1977,Saskatchewan,31800,Western
+1978,Saskatchewan,31200,Western
+1979,Saskatchewan,32400,Western
+1980,Saskatchewan,30300,Western
+1981,Saskatchewan,32400,Western
+1982,Saskatchewan,29200,Western
+1983,Saskatchewan,27600,Western
+1984,Saskatchewan,27800,Western
+1985,Saskatchewan,27500,Western
+1986,Saskatchewan,25400,Western
+1987,Saskatchewan,26100,Western
+1988,Saskatchewan,25500,Western
+1989,Saskatchewan,26700,Western
+1990,Saskatchewan,25400,Western
+1991,Saskatchewan,24200,Western
+1992,Saskatchewan,23900,Western
+1993,Saskatchewan,24800,Western
+1994,Saskatchewan,25000,Western
+1995,Saskatchewan,26500,Western
+1996,Saskatchewan,26100,Western
+1997,Saskatchewan,26600,Western
+1998,Saskatchewan,25400,Western
+1999,Saskatchewan,26600,Western
+2000,Saskatchewan,26500,Western
+2001,Saskatchewan,27500,Western
+2002,Saskatchewan,28600,Western
+2003,Saskatchewan,27700,Western
+2004,Saskatchewan,27200,Western
+2005,Saskatchewan,28500,Western
+2006,Saskatchewan,30000,Western
+2007,Saskatchewan,30600,Western
+2008,Saskatchewan,34200,Western
+2009,Saskatchewan,34400,Western
+2010,Saskatchewan,34400,Western
+2011,Saskatchewan,34800,Western
+2012,Saskatchewan,36300,Western
+2013,Saskatchewan,36900,Western
+2014,Saskatchewan,39100,Western
+2015,Saskatchewan,38400,Western
+2016,Saskatchewan,37000,Western
+2017,Saskatchewan,37300,Western
+2018,Saskatchewan,36600,Western
+1976,Alberta,36500,Western
+1977,Alberta,36500,Western
+1978,Alberta,37100,Western
+1979,Alberta,36700,Western
+1980,Alberta,36800,Western
+1981,Alberta,38800,Western
+1982,Alberta,36800,Western
+1983,Alberta,33800,Western
+1984,Alberta,33000,Western
+1985,Alberta,33300,Western
+1986,Alberta,32500,Western
+1987,Alberta,31800,Western
+1988,Alberta,33700,Western
+1989,Alberta,33400,Western
+1990,Alberta,32700,Western
+1991,Alberta,31700,Western
+1992,Alberta,30300,Western
+1993,Alberta,31000,Western
+1994,Alberta,29900,Western
+1995,Alberta,30500,Western
+1996,Alberta,30200,Western
+1997,Alberta,31500,Western
+1998,Alberta,31100,Western
+1999,Alberta,31200,Western
+2000,Alberta,33600,Western
+2001,Alberta,34100,Western
+2002,Alberta,33900,Western
+2003,Alberta,33700,Western
+2004,Alberta,36200,Western
+2005,Alberta,37400,Western
+2006,Alberta,38400,Western
+2007,Alberta,40200,Western
+2008,Alberta,42100,Western
+2009,Alberta,41600,Western
+2010,Alberta,41400,Western
+2011,Alberta,42400,Western
+2012,Alberta,43400,Western
+2013,Alberta,45300,Western
+2014,Alberta,43700,Western
+2015,Alberta,42800,Western
+2016,Alberta,40900,Western
+2017,Alberta,42700,Western
+2018,Alberta,41400,Western
+1976,British Columbia,42900,Western
+1977,British Columbia,40400,Western
+1978,British Columbia,39400,Western
+1979,British Columbia,40000,Western
+1980,British Columbia,41600,Western
+1981,British Columbia,38500,Western
+1982,British Columbia,35900,Western
+1983,British Columbia,34600,Western
+1984,British Columbia,32000,Western
+1985,British Columbia,32000,Western
+1986,British Columbia,32500,Western
+1987,British Columbia,33100,Western
+1988,British Columbia,34300,Western
+1989,British Columbia,35700,Western
+1990,British Columbia,33400,Western
+1991,British Columbia,31700,Western
+1992,British Columbia,31800,Western
+1993,British Columbia,31200,Western
+1994,British Columbia,31900,Western
+1995,British Columbia,32000,Western
+1996,British Columbia,32200,Western
+1997,British Columbia,33200,Western
+1998,British Columbia,32200,Western
+1999,British Columbia,32400,Western
+2000,British Columbia,31600,Western
+2001,British Columbia,31600,Western
+2002,British Columbia,30200,Western
+2003,British Columbia,29900,Western
+2004,British Columbia,29900,Western
+2005,British Columbia,31200,Western
+2006,British Columbia,30800,Western
+2007,British Columbia,32700,Western
+2008,British Columbia,33300,Western
+2009,British Columbia,31600,Western
+2010,British Columbia,30900,Western
+2011,British Columbia,31000,Western
+2012,British Columbia,31700,Western
+2013,British Columbia,32300,Western
+2014,British Columbia,33200,Western
+2015,British Columbia,32400,Western
+2016,British Columbia,32900,Western
+2017,British Columbia,32400,Western
+2018,British Columbia,33600,Western
