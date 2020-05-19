@@ -1,0 +1,9 @@
+body {
+    font-size: 1.5em;
+}
+
+input {
+    width: 9%;
+    box-sizing: border-box;
+}
+
