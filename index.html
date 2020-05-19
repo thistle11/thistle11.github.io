@@ -5,8 +5,10 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <title>$$$</title>
+
 <script>
-function calc(){
+function calc()
+{
 var entry = document.getElementById('entry').value;
 var exit = document.getElementById('exit').value;
 var qty = document.getElementById('qty').value;
@@ -14,9 +16,11 @@ var comm = document.getElementById('comm').value;
 var delta = exit - entry;
 var pre = delta * qty;
 var totalComm = comm * 2;
-var profit = pre - totalComm; 
+var profit = pre - totalComm;
+var init = entry * qty;
+var initT = +init + +comm;
 document.getElementById('result').innerHTML=profit;
-
+document.getElementById('result2').innerHTML=initT;
 }
 </script>
 
@@ -24,13 +28,15 @@ document.getElementById('result').innerHTML=profit;
 <body>
 <h3> Profit or Loss Calculator</h3>        
  <form>
-        <p>Entry Price<br><input type="text" id="entry"/></p>
-        <p>Exit Price<br><input type="text" id="exit"/></p>
-        <p>Number of Shares<br><input type="text" id="qty"/></p>
-        <p>Commission<br><input type="text" id="comm"/></p>
-        <input class="zz" type="button" onClick="calc()" value="Calculate" />
+        <p>Entry Price<br><input type="number" id="entry"/></p>
+        <p>Exit Price<br><input type="number" id="exit"/></p>
+        <p>Number of Shares<br><input type="number" id="qty"/></p>
+        <p>Commission<br><input type="number" id="comm"/></p>
+        <input type="button" onClick="calc()" value="Calculate" />
  </form><br>
-<div id="result"></div>
+<p>P/L:</p><div id="result"></div>
+<p>Initial Investment:</p><div id="result2"></div>
+
 </body>
 </html>
 
