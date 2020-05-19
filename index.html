@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>$$$</title>
+<script>
+function calc(){
+var entry = document.getElementById('entry').value;
+var exit = document.getElementById('exit').value;
+var qty = document.getElementById('qty').value;
+var comm = document.getElementById('comm').value;
+var delta = exit - entry;
+var pre = delta * qty;
+var totalComm = comm * 2;
+var profit = pre - totalComm; 
+document.getElementById('result').innerHTML=profit;
+
+}
+</script>
+
+</head>
+<body>
+<h3> Profit or Loss Calculator</h3>        
+ <form>
+        <p>Entry Price<br><input type="text" id="entry"/></p>
+        <p>Exit Price<br><input type="text" id="exit"/></p>
+        <p>Number of Shares<br><input type="text" id="qty"/></p>
+        <p>Commission<br><input type="text" id="comm"/></p>
+        <input type="button" onClick="calc()" value="Calculate" />
+ </form>
+<div id="result"></div>
+</body>
+</html>
+
