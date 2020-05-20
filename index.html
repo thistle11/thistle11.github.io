@@ -6,6 +6,51 @@
 <link rel="stylesheet" href="style.css">
 <title>$$$</title>
 
+<div class="topnav" id="myTopnav">
+       <div class="dropdown">
+              <button class="dropbtn">Tools
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="index.html" class="active">P/L Calculator</a>
+                <a href="#">Tool B</a>
+                <a href="#">Tool C</a>
+              </div>
+            </div>
+       <div class="dropdown">
+         <button class="dropbtn">Macro
+           <i class="fa fa-caret-down"></i>
+         </button>
+         <div class="dropdown-content">
+           <a href="Fossil_Percentage.html">Fossil %</a>
+           <a href="#">Chart B</a>
+           <a href="#">Chart C</a>
+         </div>
+       </div>
+       <div class="dropdown">
+              <button class="dropbtn">Micro
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Company A</a>
+                <a href="#">Company B</a>
+                <a href="#">Company C</a>
+              </div>
+            </div>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </div>
+
+<script> 
+     function myFunction() {
+       var x = document.getElementById("myTopnav");
+       if (x.className === "topnav") {
+         x.className += " responsive";
+       } else {
+         x.className = "topnav";
+       }
+     }
+</script>     
+
 <script>
 function calc()
 {
