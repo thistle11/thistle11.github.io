@@ -1,16 +1,15 @@
 .frame-wrap {
-  position: absolute;
-  width: 96%;
-  margin: 0 auto;
-  padding: 30px 0;
-  max-width: 560px;
-  overflow: hidden;
+  position: relative;
+  max-width: 96vw;
+  max-height: 52vw;
+  padding: 3vw 0;
 }
 
 .content-wrap {
+  position: relative;
   width: 96%;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 3vw 0;
 }
 
 .context-wrap {
