@@ -8,12 +8,13 @@
 <link rel="icon" href="bags.png">
 
 <div class="topnav" id="myTopnav">
+  <a href="index.html">News</a>
        <div class="dropdown">
               <button class="dropbtn">Tools
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="index.html" class="active">P/L Calculator</a>
+                <a href="PL_Calc.html">P/L Calculator</a>
                 <a href="#">Personal Budget - Coming Soon</a>
                 <a href="#">Tool C - Future Project</a>
               </div>
@@ -51,39 +52,16 @@
        }
      }
 </script>     
-
-<script>
-function calc()
-{
-var entry = document.getElementById('entry').value;
-var exit = document.getElementById('exit').value;
-var qty = document.getElementById('qty').value;
-var comm = document.getElementById('comm').value;
-var delta = exit - entry;
-var pre = delta * qty;
-var totalComm = comm * 2;
-var profit = pre - totalComm;
-var init = entry * qty;
-var initT = +init + +comm;
-document.getElementById('result').innerHTML=profit;
-document.getElementById('result2').innerHTML=initT;
-}
-</script>
-
 </head>
 <body>
-<div class="context-wrap">
-<h3> Profit / Loss Calculator</h3>        
- <form>
-        <p>Entry Price<br><input type="number" id="entry"/></p>
-        <p>Exit Price<br><input type="number" id="exit"/></p>
-        <p>Number of Shares<br><input type="number" id="qty"/></p>
-        <p>Commission<br><input type="number" id="comm"/></p>
-        <input type="button" onClick="calc()" value="Calculate" />
- </form><br>
-<p>P/L:</p><div id="result"></div>
-<p>Initial Investment:</p><div id="result2"></div>
-</div>
+
+  <div class= "context-wrap">
+    <p>
+      <h3>May 21, 2020</h3>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_wSem-WX6Ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    </div>
+
 </body>
 </html>
 
