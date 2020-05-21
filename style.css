@@ -1,11 +1,11 @@
 .content-wrap {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
   padding: 30px 0;
 }
 
 .context-wrap {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
 }
 
@@ -15,14 +15,20 @@
   margin-right: auto;
 }
 
+.margin {
+  margin: 10px;
+}
 
 body {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin: 0;
+    font-family: 'Menlo', sans-serif;
 }
 
 .fineprint {
-    font-size: .5em;
+    font-size: .7em;
     text-align: right;
+    padding: 10px;
 }
 
 /* Add a black background color to the top navigation */

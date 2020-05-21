@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">      
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">      
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <title>Bags</title>
@@ -72,7 +73,8 @@ document.getElementById('result2').innerHTML=initT;
 
 </head>
 <body>
-<h3> Profit or Loss Calculator</h3>        
+<div class="context-wrap">
+<h2> Profit / Loss Calculator</h2>        
  <form>
         <p>Entry Price<br><input type="number" id="entry"/></p>
         <p>Exit Price<br><input type="number" id="exit"/></p>
@@ -82,7 +84,7 @@ document.getElementById('result2').innerHTML=initT;
  </form><br>
 <p>P/L:</p><div id="result"></div>
 <p>Initial Investment:</p><div id="result2"></div>
-
+</div>
 </body>
 </html>
 
