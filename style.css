@@ -1,8 +1,15 @@
-.frame-wrap {
+.frame-wrap-big {
   position: relative;
   max-width: 96vw;
   max-height: 52vw;
   padding: 3vw 0 .2vw;
+}
+
+.frame-wrap-small {
+  position: absolute;
+  max-width: 96vw;
+  max-height: 52vw;
+  padding: 2vw 0 1vw;
 }
 
 .content-wrap {
@@ -141,6 +148,8 @@ body {
     .topnav a.icon {
       float: right;
       display: block;
+      width: 30px;
+      height: 30px;
     }
   }
   
