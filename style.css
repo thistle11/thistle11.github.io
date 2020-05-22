@@ -148,8 +148,7 @@ body {
     .topnav a.icon {
       float: right;
       display: block;
-      width: 30px;
-      height: 30px;
+      font-size: larger;
     }
   }
   
@@ -160,6 +159,7 @@ body {
       position: absolute;
       right: 0;
       top: 0;
+      font-size: larger;
     }
     .topnav.responsive a {
       float: none;
