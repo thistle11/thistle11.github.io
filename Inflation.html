@@ -8,15 +8,15 @@
 <link rel="icon" href="bags.png">
 
 <div class="topnav" id="myTopnav">
-       <div class="dropdown bumper">
-        <button class="dropbtn">News
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="index.html">The Latest</a>
-        </div>
-      </div>
-       <div class="dropdown">
+  <div class="dropdown bumper">
+   <button class="dropbtn">News
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+     <a href="index.html">The Latest</a>
+   </div>
+ </div>
+  <div class="dropdown">
               <button class="dropbtn">Tools
                 <i class="fa fa-caret-down"></i>
               </button>
@@ -32,7 +32,7 @@
          </button>
          <div class="dropdown-content">
            <a href="Fossil_Percentage.html">Fossil Fuel</a>
-           <a href="Inflation.html">Inflation</a>
+           <a href="Inflation.html" class="active">Inflation</a>
            <a href="#">Chart C - Future Project</a>
          </div>
        </div>
@@ -60,38 +60,24 @@
      }
 </script>     
 
-<script>
-function calc()
-{
-var entry = document.getElementById('entry').value;
-var exit = document.getElementById('exit').value;
-var qty = document.getElementById('qty').value;
-var comm = document.getElementById('comm').value;
-var delta = exit - entry;
-var pre = delta * qty;
-var totalComm = comm * 2;
-var profit = pre - totalComm;
-var init = entry * qty;
-var initT = +init + +comm;
-document.getElementById('result').innerHTML=profit;
-document.getElementById('result2').innerHTML=initT;
-}
-</script>
-
-</head>
-<body>
-<div class="context-wrap">
-<h3> Profit / Loss Calculator</h3>        
- <form>
-        <p>Entry Price<br><input type="number" id="entry"/></p>
-        <p>Exit Price<br><input type="number" id="exit"/></p>
-        <p>Number of Shares<br><input type="number" id="qty"/></p>
-        <p>Commission<br><input type="number" id="comm"/></p>
-        <input type="button" onClick="calc()" value="Calculate" />
- </form><br>
-<p>P/L:</p><div id="result"></div>
-<p>Initial Investment:</p><div id="result2"></div>
+<div class= "context-wrap">
+<p>
+  <h3>
+   Inflation
+  </h3>
+</p>
 </div>
+
+<iframe class= "content-wrap plot"
+src="https://public.tableau.com/views/Inflation_15901108180730/Sheet1?:showVizHome=no&:embed=true"
+width="1200" height="550">
+</iframe>
+
+
+<p class="fineprint context-wrap">
+  Source: The World Bank <a href="https://databank.worldbank.org/source/world-development-indicators">World Development Indicators</a> 
+</p>
+
 </body>
 </html>
 
