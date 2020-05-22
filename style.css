@@ -2,7 +2,7 @@
   position: relative;
   max-width: 96vw;
   max-height: 52vw;
-  padding: 3vw 0;
+  padding: 3vw 0 .2vw;
 }
 
 .content-wrap {
@@ -43,6 +43,11 @@ body {
     text-align: right;
     padding: 10px;
     margin: 5px;
+}
+
+.cap {
+  font-size: .7em;
+  text-align: center;
 }
 
 /* Add a black background color to the top navigation */
