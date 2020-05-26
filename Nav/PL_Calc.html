@@ -48,11 +48,17 @@ var comm = document.getElementById('comm').value;
 var delta = exit - entry;
 var pre = delta * qty;
 var totalComm = comm * 2;
-var profit = pre - totalComm;
+var profit = Math.round(pre - totalComm);
 var init = entry * qty;
-var initT = +init + +comm;
-document.getElementById('result').innerHTML=profit;
-document.getElementById('result2').innerHTML=initT;
+var initT = Math.round(+init + +comm);
+var PL = "P/L: $"
+var II = "Initial Investment: $"
+var PC = "Percentage Change: "
+var PER = "%"
+var percentage = Math.round(profit/initT*100);
+document.getElementById('result').innerHTML=PL+profit;
+document.getElementById('result2').innerHTML=II+initT;
+document.getElementById('result3').innerHTML=PC+percentage+PER;
 }
 </script>
 
@@ -67,8 +73,9 @@ document.getElementById('result2').innerHTML=initT;
         <p>Commission<br><input type="number" id="comm"/></p>
         <input type="button" onClick="calc()" value="Calculate" />
  </form><br>
-<p>P/L:</p><div id="result"></div>
-<p>Initial Investment:</p><div id="result2"></div>
+<div id="result"></div><br>
+<div id="result2"></div><br>
+<div id="result3"></div><br>
 </div>
 </body>
 </html>
