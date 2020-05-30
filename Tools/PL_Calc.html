@@ -19,8 +19,8 @@
      <button class="dropbtn">Tools
       </button>
        <div class="dropdown-content">
-        <a href="/Nav/PL_Calc.html">Profit | Loss</a>
-        <a href="/Nav/Quantity_Calc.html">Quantity</a>
+        <a href="/Tools/PL_Calc.html">Profit | Loss</a>
+         <a href="/Tools/Quantity_Calc.html">Share Quantity</a>
        </div>
     </div>
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -38,6 +38,7 @@
 </script>     
 
 <script>
+/* Add in good notes */
 function calc()
 {
 var entry = document.getElementById('entry').value;
@@ -46,6 +47,7 @@ var qty = document.getElementById('qty').value;
 var comm = document.getElementById('comm').value;
 var datein = new Date(document.getElementById('datein').value);
 var dateout = new Date(document.getElementById('dateout').value);
+
 var delta = exit - entry;
 var dateDiff = parseInt((dateout - datein) / (24 * 3600 * 1000));
 var pre = delta * qty;
@@ -58,17 +60,18 @@ var preinitT = (+init + +comm);
 var initT = preinitT.toFixed(2);
 var preMVT = (+MVX);
 var MVT = preMVT.toFixed(2);
+var prePercentage = profit/initT*100;
+var percentage = prePercentage.toFixed(2);
+var preR = (((preinitT+preprofit)/preinitT)**(365/dateDiff)-1)*100;
+var R = preR.toFixed(2);
+
 var PL = "P/L: $"
 var II = "Initial Investment: $"
 var PC = "Percentage Change: "
 var AR = "Annualized Return: "
 var MV = "Market Value at Target Price: $"
 var PER = "%"
-var prePercentage = profit/initT*100;
-var percentage = prePercentage.toFixed(2);
-/* Add in good notes */
-var preR = (((preinitT+preprofit)/preinitT)**(365/dateDiff)-1)*100;
-var R = preR.toFixed(2);
+
 document.getElementById('result').innerHTML=PL+profit;
 document.getElementById('result2').innerHTML=II+initT;
 document.getElementById('result3').innerHTML=MV+MVT;
