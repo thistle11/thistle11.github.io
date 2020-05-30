@@ -10,7 +10,6 @@
 <div class="topnav" id="myTopnav">
   <div class="dropdown bumper">
     <button class="dropbtn">Allied Rivals
-     <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
      <a href="/index.html">News</a>
@@ -18,10 +17,10 @@
   </div>
    <div class="dropdown">
      <button class="dropbtn">Tools
-       <i class="fa fa-caret-down"></i>
       </button>
        <div class="dropdown-content">
-        <a href="/Nav/PL_Calc.html">P/L Calculator</a>
+        <a href="/Nav/PL_Calc.html">Profit | Loss</a>
+        <a href="/Nav/Quantity_Calc.html">Quantity</a>
        </div>
     </div>
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -45,37 +44,57 @@ var entry = document.getElementById('entry').value;
 var exit = document.getElementById('exit').value;
 var qty = document.getElementById('qty').value;
 var comm = document.getElementById('comm').value;
+var datein = new Date(document.getElementById('datein').value);
+var dateout = new Date(document.getElementById('dateout').value);
 var delta = exit - entry;
+var dateDiff = parseInt((dateout - datein) / (24 * 3600 * 1000));
 var pre = delta * qty;
 var totalComm = comm * 2;
-var profit = Math.round(pre - totalComm);
+var preprofit = (pre - totalComm);
+var profit = preprofit.toFixed(2);
 var init = entry * qty;
-var initT = Math.round(+init + +comm);
+var MVX = exit * qty;
+var preinitT = (+init + +comm);
+var initT = preinitT.toFixed(2);
+var preMVT = (+MVX);
+var MVT = preMVT.toFixed(2);
 var PL = "P/L: $"
 var II = "Initial Investment: $"
 var PC = "Percentage Change: "
+var AR = "Annualized Return: "
+var MV = "Market Value at Target Price: $"
 var PER = "%"
-var percentage = Math.round(profit/initT*100);
+var prePercentage = profit/initT*100;
+var percentage = prePercentage.toFixed(2);
+/* Add in good notes */
+var preR = (((preinitT+preprofit)/preinitT)**(365/dateDiff)-1)*100;
+var R = preR.toFixed(2);
 document.getElementById('result').innerHTML=PL+profit;
 document.getElementById('result2').innerHTML=II+initT;
-document.getElementById('result3').innerHTML=PC+percentage+PER;
+document.getElementById('result3').innerHTML=MV+MVT;
+document.getElementById('result4').innerHTML=PC+percentage+PER;
+document.getElementById('result5').innerHTML=AR+R+PER;
 }
 </script>
 
 </head>
 <body>
 <div class="context-wrap">
-<h3> Profit / Loss Calculator</h3>        
+<h3> Profit | Loss Calculator</h3>        
  <form>
         <p>Entry Price<br><input type="number" id="entry"/></p>
         <p>Exit Price<br><input type="number" id="exit"/></p>
+        <p>Entry Date<br><input type="date" id="datein"/></p>
+        <p>Exit Date<br><input type="date" id="dateout"/></p>
         <p>Number of Shares<br><input type="number" id="qty"/></p>
         <p>Commission<br><input type="number" id="comm"/></p>
         <input type="button" onClick="calc()" value="Calculate" />
  </form><br>
-<div id="result"></div><br>
 <div id="result2"></div><br>
+<div id="result"></div><br>
 <div id="result3"></div><br>
+<div id="result4"></div><br>
+<div id="result5"></div><br>
 </div>
 </body>
 </html>
