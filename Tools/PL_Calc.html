@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">      
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/CSS/style.css">
+<title>Allied Rivals</title>
+<link rel="icon" href="/Images/favicon.ico">
+
+
+<div class="topnav" id="myTopnav">
+  <div class="dropdown bumper">
+    <a href="/index.html">Allied Rivals</a>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Tools
+    </button>
+    <div class="dropdown-content">
+      <a href="/Tools/PL_Calc.html">Profit | Loss</a>
+      <a href="/Tools/Quantity_Calc.html">Share Quantity</a>
+    </div>
+  </div>    
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script> 
+     function myFunction() {
+       var x = document.getElementById("myTopnav");
+       if (x.className === "topnav") {
+         x.className += " responsive";
+       } else {
+         x.className = "topnav";
+       }
+     }
+</script>     
+
+<script>
+/* Add in good notes */
+function calc()
+{
+var entry = document.getElementById('entry').value;
+var exit = document.getElementById('exit').value;
+var qty = document.getElementById('qty').value;
+var comm = document.getElementById('comm').value;
+var datein = new Date(document.getElementById('datein').value);
+var dateout = new Date(document.getElementById('dateout').value);
+
+var delta = exit - entry;
+var dateDiff = parseInt((dateout - datein) / (24 * 3600 * 1000));
+var pre = delta * qty;
+var totalComm = comm * 2;
+var preprofit = (pre - totalComm);
+var profit = preprofit.toFixed(2);
+var init = entry * qty;
+var MVX = exit * qty;
+var preinitT = (+init + +comm);
+var initT = preinitT.toFixed(2);
+var preMVT = (+MVX);
+var MVT = preMVT.toFixed(2);
+var prePercentage = profit/initT*100;
+var percentage = prePercentage.toFixed(2);
+var preR = (((preinitT+preprofit)/preinitT)**(365/dateDiff)-1)*100;
+var R = preR.toFixed(2);
+
+var PL = "P/L: $"
+var II = "Initial Investment: $"
+var PC = "Percentage Change: "
+var AR = "Annualized Return: "
+var MV = "Market Value at Target Price: $"
+var PER = "%"
+
+document.getElementById('result').innerHTML=PL+profit;
+document.getElementById('result2').innerHTML=II+initT;
+document.getElementById('result3').innerHTML=MV+MVT;
+document.getElementById('result4').innerHTML=PC+percentage+PER;
+document.getElementById('result5').innerHTML=AR+R+PER;
+}
+</script>
+
+</head>
+<body>
+<div class="context-wrap">
+<h3> Profit | Loss Calculator</h3>        
+ <form>
+        <p>Entry Date<br><input type="date" id="datein"/></p>
+        <p>Entry Price<br><input type="number" id="entry"/></p>
+        <p>Exit Date<br><input type="date" id="dateout"/></p>
+        <p>Exit Price<br><input type="number" id="exit"/></p>
+        <p>Number of Shares<br><input type="number" id="qty"/></p>
+        <p>Commission<br><input type="number" id="comm"/></p>
+        <input type="button" onClick="calc()" value="Calculate" />
+ </form><br>
+<div id="result2"></div><br>
+<div id="result"></div><br>
+<div id="result3"></div><br>
+<div id="result4"></div><br>
+<div id="result5"></div><br>
+</div>
+</body>
+</html>
+
