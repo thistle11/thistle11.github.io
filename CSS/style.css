@@ -4,7 +4,7 @@ html {
 
 .frame-wrap-big {
   position: relative;
-  max-width: 96vw;
+  max-width: 80vw;
   max-height: 52vw;
   padding: 3vw 0 .2vw;
 }
@@ -32,9 +32,8 @@ html {
 
 .content-wrap {
   position: relative;
-  width: 96vw;
+  width: 80vw;
   margin: 0 auto;
-  padding: 3vw 0;
 }
 
 .center {
